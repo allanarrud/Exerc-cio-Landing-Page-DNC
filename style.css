@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu-superior {
+    background-image: url(imagem/fundo.svg);
+    color: aliceblue;
+    padding: 50px;
+}
+
+#Texto-Titulo {
+    margin-left: 35px;
+    margin-top: 75px;
+
+}
+
+#Texto-menusuperior {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+
+}
+
+#menu-informativo{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+#meio-page{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.texto-meio-inteiro{
+    margin: 250px 50px 50px 100px; 
+}
+
+#imagem{
+    margin: 70px 25px 50px 75px;
+}
+
+#formulario{
+    background-image: url(imagem/rodape.svg);
+    color: #eaece5;
+    text-align: center;
+    padding: 50px;
+}
+
+input{
+    Width:300px;
+    Height:40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0d2631;
+    transition-duration: 0,5s;
+}
+
+
+
